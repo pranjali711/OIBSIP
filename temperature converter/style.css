@@ -1,0 +1,93 @@
+
+body{
+	background-image: linear-gradient(to right, rgb(4, 35, 46),rgb(190, 146, 222),rgb(5, 25, 25));
+	background-position: center;
+    background-size: 300% 300%;
+	background-repeat:no-repeat;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+
+.temp_calculator {
+	border-radius:25px;
+    width: 480px;
+    margin: 50px auto;
+    background:#00ffff;
+    margin-top: 150px;
+  background: inherit;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+}
+
+h2.title {
+	border-radius:25px 25px 0px 0px; 
+    background:  #622c5b ;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+}
+.calculator_input {
+   text-align: center;
+}
+label {
+    font-size: 20px;
+}
+input {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    background: rgb(217, 201, 221);
+    padding: 8px;
+	border-radius:5px;
+}
+.result_area label {
+    width: 18%;
+    margin-left: 15%;
+}
+.result_area input {
+    width: 50%;
+
+}
+.calculator_value label {
+    margin-left:18%;
+    width: 36%;
+    float: left;
+}
+.calculator_value input {
+    margin-left:18%;
+    width: 64%;
+}
+.calculator_value {
+    margin-bottom: 30px;
+}
+
+.calculator_input {
+    padding: 0px 23px;
+    margin-bottom: 30px;
+	border-radius:25px;
+}
+
+.result_area {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+button#convert {
+    text-align: center;
+    margin-left:30%;
+}
+button.cal-btn {
+    width: 45%;
+    padding: 12px;
+    border: none;
+    background:  #622c5b;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 550;
+    cursor: pointer;
+	border-radius:5px;
+}
+
+select {
+    padding: 10px;
+}
