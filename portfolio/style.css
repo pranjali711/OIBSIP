@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.head{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "p e d a";
+}
+.div1{
+    grid-area: p;
+}
+.innerhead1{
+    grid-area: e;
+}
+.innerhead2{
+    grid-area: d;
+}
+.innerhead3{
+    grid-area: a;
+}
+
+.resume{
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 40px;
+
+}
+#image{
+width: 90%;
+margin-top: 20px;
+margin-left: 5.7%;
+
+}
+.detail{
+    margin-left: 5.7%;
+
+}
+.div2{
+    margin-left: 5.7%;
+}
+.duration{
+    color: gray;
+    font-size: 17px;
+    
+
+}
+.bot{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .head{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "p e d"
+        "a . .";
+    
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .head{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "p e"
+        "d a";
+    }
+}
+.topic{
+    font-family:'Montserrat';
+    margin-top: 20px;
+}
+.pro{
+    margin-top: 10px;
+}
